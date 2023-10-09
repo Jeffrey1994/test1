@@ -15,4 +15,9 @@ public class MyController  {
     public String home() {
         return "test2";
     }
+
+    @RequestMapping("/test3")
+    public String test3(){
+        return "sssss";
+    }
 }
